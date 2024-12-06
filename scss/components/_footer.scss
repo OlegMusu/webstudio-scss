@@ -1,0 +1,50 @@
+/* footer */
+
+.footer {
+    background-color: $footerBackgroundColor;
+    padding: 60px 0;
+}
+
+/* address */
+
+.address-link {
+    color: $whiteColor;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.address-item {
+    margin-bottom: 9px;
+  }
+
+.address {
+    margin-top: 20px;
+}
+
+/* logo */
+
+.logo-span {
+    font-family: "Raleway", sans-serif;
+    color: $mainTextColor;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    color: $accentColor;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.logo-basement {
+    font-family: "Raleway", sans-serif;
+    color: $whiteColor;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: capitalize
+}
+
+.base-ment-list {
+    color: rgba(117, 117, 117, 4);
+    font-size: 14px;
+    font-weight: 400;
+}
