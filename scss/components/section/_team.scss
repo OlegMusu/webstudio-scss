@@ -1,0 +1,39 @@
+.team-name {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
+    color: $mainTextColor;
+}
+
+.team-position {
+    color: $secondaryTextColor;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 34px;
+}
+
+/* .team-list {
+    
+} */
+
+.team-item {
+    background-color: $whiteColor;
+}
+
+.team-list {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team {
+    text-align: center;
+    background-color: $backgroundLightColor;
+    padding: 94px 0;
+    justify-content: space-between;
+}
+
+.team-img {
+    width: 260px;
+}
