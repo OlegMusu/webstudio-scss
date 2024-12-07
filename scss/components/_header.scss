@@ -1,3 +1,9 @@
+.heder-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .header {
     position: fixed;
     top: 0;

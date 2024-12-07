@@ -1,17 +1,9 @@
-.heder-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.hero-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .container {
     width: 1200px;
     margin: 0 auto;
     padding: 0 10px;
 }
+
+body {
+    font-family: "Roboto", sans-serif;
+  }
