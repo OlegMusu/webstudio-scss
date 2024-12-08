@@ -1,4 +1,6 @@
 @import "./utils/variables";
+@import "./base/common";
+@import "./base/reset";
 @import "./components/footer";
 @import "./components/header";
 @import "./components/features";
@@ -7,5 +9,3 @@
 @import "./components/team";
 @import "./components/work";
 @import "./components/clients.scss";
-@import "./base/common";
-@import "./base/reset";
