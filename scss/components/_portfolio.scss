@@ -1,0 +1,134 @@
+/* advantage(s) */
+
+.project {
+    padding: 26px 0;
+}
+
+.advantages {
+    padding-top: 94px;
+}
+
+.advantages-list {
+    display: flex;
+    gap: 30px;
+}
+
+.advantages-item {
+    padding: 15px;
+}
+
+.advantages-item {
+    max-width: 270px;
+}
+
+.projects-list {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.projects-item {
+    border: 1px solid #eee;
+    transition: box-shadow 300ms ease-in-out;
+    flex-basis: calc((100% - 60px ) / 3);
+
+    & {
+        box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    }
+
+}
+
+.projects-thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.photos-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* bottom: 0; */
+    /* right: 0; */
+    width: 100%;
+    height: 100%;
+    padding: 63px 24px;
+    color: #FFFFFF;
+    background-color: rgba( 33, 150, 243, 0.90);
+    transform: translateY(101%);
+    transition: transform 450ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.projects-item:hover .photos-overlay,
+.projects-item:focus .photos-overlay {
+    transform: translateY(0);
+}
+
+.projects-overlay-text {  
+    color: #fff;  
+    font-size: 18px; 
+    font-weight: 400;
+    line-height: 1.6;  
+    letter-spacing: 0.54px;
+}
+
+.projects-textbox {
+    padding: 20px 24px;
+}
+
+.projects-subtitle {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $mainTextColor;
+    letter-spacing: 0.42px;
+    line-height: 1.1;
+}
+
+.projects-text {
+    color: $secondaryTextColor;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+    letter-spacing: 0.42px;
+    line-height:1.7;
+}
+
+.portfolio-list {
+    color: $mainTextColor;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.portfolio {
+    padding-top: 94px;
+    padding-bottom: 34px;
+}
+
+.portfolio-btns {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    gap: 8px;
+}
+
+.portfolio-btn-element {
+    color: $mainTextColor;
+    background-color: $backgroundLightColor;
+    transition: background-color, color, 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    height: 38px;
+    size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 6px 22px
+}
+
+/* .portfolio-btn-element:active {
+    color: #FFFFFF;
+    background-color: #2196F3;
+} */
+
+.portfolio-btn-element:focus,
+.portfolio-btn-element:hover {
+    color: $whiteColor;
+    background-color: $whiteColor;
+}
