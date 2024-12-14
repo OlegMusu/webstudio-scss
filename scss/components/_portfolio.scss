@@ -36,6 +36,11 @@
         box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     }
 
+    &:hover .photos-overlay,
+    &:focus .photos-overlay {
+    transform: translateY(0);
+}
+
 }
 
 .projects-thumb {
@@ -56,11 +61,6 @@
     background-color: rgba( 33, 150, 243, 0.90);
     transform: translateY(101%);
     transition: transform 450ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.projects-item:hover .photos-overlay,
-.projects-item:focus .photos-overlay {
-    transform: translateY(0);
 }
 
 .projects-overlay-text {  
@@ -119,16 +119,18 @@
     size: 16px;
     font-weight: 500;
     line-height: 26px;
-    padding: 6px 22px
-}
+    padding: 6px 22px;
 
-/* .portfolio-btn-element:active {
-    color: #FFFFFF;
-    background-color: #2196F3;
-} */
+    // &:active {
+    // color: #FFFFFF;
+    // background-color: #2196F3;
+    // }
 
-.portfolio-btn-element:focus,
-.portfolio-btn-element:hover {
+    &:focus,
+    &:hover {
     color: $whiteColor;
     background-color: $whiteColor;
+    }
+
 }
+
